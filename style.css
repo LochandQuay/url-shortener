@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background: whitesmoke;
+  color: gray;
+  font-family: 'Franklin Gothic Medium', Helvetica, sans-serif;
+}
+
+#main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#app {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  padding: 40px;
+  margin: 0;
+  font-size: 50px;
+  color: white;
+  background: skyblue;
+}
+
+.section {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.section:first-of-type {
+  border-right: 25px solid whitesmoke;
+}
+
+.section:last-of-type {
+  border-left: 25px solid whitesmoke;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  background: skyblue;
+  color: white;
+  padding: 10px;
+  margin: 0px 0px 60px 0px;
+}
+
+input {
+  display: block;
+  width: 95%;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 40px auto;
+}
+
+input[type=text]:focus {
+  border: 2px solid skyblue;
+}
+
+input[type=submit] {
+  background: skyblue;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+input[type=submit]:hover {
+  background: deepskyblue;
+}
+
+.results {
+  height: 200px;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#created-url {
+  color: deepskyblue;
+}
+
+#error {
+  color: tomato;
+  display: none;
+  font-size: 35px;
+}
